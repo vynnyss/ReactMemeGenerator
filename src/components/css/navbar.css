@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(103,34,128);
+    background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 100%);
+    align-items: center;
+    color: white;
+    font-family: "Karla";
+    height: 70px;
+}
+
+.navbar--logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar--trollface{
+    margin-left: 20px;
+    margin-right: 8px;
+    width: 20%;
+}
+
+.navbar--right{
+    padding-right: 20px;
+    font-weight: 400;
+}
